@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">&lt;ST /&gt;</div>
+
+  <ul>
+    <li onclick="scrollToSection('home')">Home</li>
+    <li onclick="scrollToSection('about')">About</li>
+    <li>Skills</li>
+    <li>Experience</li>
+    <li>Projects</li>
+    <li>Certificates</li>
+    <li>Contact</li>
+  </ul>
+
+  <button class="resume-btn" onclick="window.open('https://drive.google.com/file/d/1vHaI5aPkRzIo6OCRrn-oGiADALApKCky/view','_blank')">
+  Resume
+</button>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <p class="intro">Hi, My Name Is</p>
+  <h1>Shreedhar Tiwari</h1><br>
+  <h2><span id="typing"></span></h2><br>
+
+  <p class="desc">
+  I'm a 3rd Year B.Tech CSE student at Lovely Professional University, driven by a strong passion for building impactful and scalable tech solutions. I specialize in full-stack development and enjoy transforming real-world problems into efficient digital systems.
+
+  With hands-on experience in IoT, AI/ML, and database-driven applications, I’ve built projects like a smart water quality monitoring system and a banking management platform. I’m also a competitive programmer with a 5-star Python rating on HackerRank and 150+ problems solved on LeetCode, constantly pushing myself to grow as a developer.
+</p>
+
+  <div class="icons">
+
+ <div class="icons">
+
+  <!-- GitHub -->
+  <a href="https://github.com/Shreedhar182005" target="_blank">
+    <div class="icon">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub">
+    </div>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/shreedhar-tiwari" target="_blank">
+    <div class="icon">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn">
+    </div>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:shreedhart182005@gmail.com">
+    <div class="icon">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/gmail.png" alt="Email">
+    </div>
+  </a>
+
+</div>
+</section>
+
+<div class="buttons">
+  <button class="primary" onclick="scrollToSection('contact')">
+    Get In Touch
+  </button>
+
+  <a href="Shreedhar-CV.pdf" download class="secondary">
+  View Resume
+</a>
+    </button>
+  </a>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+
+  <h2 class="about-title">About <span>Me</span></h2>
+
+  <div class="about-wrapper">
+
+    <div class="about-container">
+
+      <!-- LEFT CONTENT -->
+      <div class="about-left">
+
+        <p>
+          I'm a passionate Computer Science and Engineering student at Lovely Professional University, currently in my 3rd year. My journey in tech has been driven by curiosity and a desire to solve real-world problems through innovative solutions.
+        </p><br>
+
+        <p>
+          With expertise in C++, Python, and full-stack development, I've worked on projects ranging from IoT-driven water quality monitoring systems to building scalable banking applications. I'm particularly interested in the intersection of AI/ML and practical applications.
+        </p><br>
+
+        <p>
+          Beyond coding, I'm a competitive programmer with 5-star Python ranking on HackerRank and have solved 150+ problems on LeetCode. I believe in continuous learning and pushing the boundaries of what's possible with technology.
+        </p>
+
+      </div>
+
+      <!-- RIGHT CARDS -->
+      <div class="about-right">
+
+        <div class="card">
+          <div class="card-icon">&lt;/&gt;</div>
+          <div>
+            <h3>150+</h3>
+            <p>LeetCode Problems</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🏆</div>
+          <div>
+            <h3>4+</h3>
+            <p>Certifications</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🎓</div>
+          <div>
+            <h3>7.38</h3>
+            <p>CGPA</p>
+          </div>
+        </div>
+
+        <div class="card education">
+          <div>
+            <h3>Education</h3>
+            <p>B.Tech in Computer Science & Engineering</p>
+            <p>Lovely Professional University</p>
+            <small>August 2023 - Present | CGPA: 7.38</small>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--Skills-->
+<section id="skills" class="skills">
+  <h2 class="skills-title">Technical <span>Skills</span></h2>
+
+  <div class="skills-container">
+
+    <!-- Programming -->
+    <div class="skill-box">
+      <h3>&lt; / &gt; Programming Languages</h3>
+
+      <div class="skill">
+        <span>C++</span><span>90%</span>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Python</span><span>85%</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>C</span><span>80%</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>JavaScript</span><span>75%</span>
+        <div class="bar"><div style="width:75%"></div></div>
+      </div>
+    </div>
+
+    <!-- Frameworks -->
+    <div class="skill-box">
+      <h3>🛠 Frameworks & Technologies</h3>
+
+      <div class="skill">
+        <span>Node.js & Express</span><span>80%</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>HTML & CSS</span><span>85%</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Bootstrap</span><span>75%</span>
+        <div class="bar"><div style="width:75%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>AI/ML</span><span>70%</span>
+        <div class="bar"><div style="width:70%"></div></div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="skill-box">
+      <h3>🗄 Tools & Platforms</h3>
+
+      <div class="skill">
+        <span>MySQL</span><span>85%</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>VS Code</span><span>90%</span>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Git & GitHub</span><span>85%</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Google Colab</span><span>80%</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="skill-box">
+      <h3>👥 Soft Skills</h3>
+
+      <div class="skill">
+        <span>Problem-Solving</span><span>90%</span>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Team Collaboration</span><span>85%</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Project Management</span><span>80%</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Adaptability</span><span>85%</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM STATS -->
+  <div class="stats">
+
+    <div class="stat-box">
+      <h2>150+</h2>
+      <p>LeetCode Problems Solved</p>
+      <small>C++ OOPS & DSA</small>
+    </div>
+
+    <div class="stat-box">
+      <h2>5 ⭐</h2>
+      <p>HackerRank Python</p>
+      <small>Gold Level Rank</small>
+    </div>
+
+    <div class="stat-box">
+      <h2>3 ⭐</h2>
+      <p>HackerRank C++</p>
+      <small>Silver Level Rank</small>
+    </div>
+
+  </div>
+</section>
+<!--exp-->
+<section id="experience" class="experience">
+
+  <h2 class="exp-title">Work <span>Experience</span></h2>
+
+  <div class="exp-container">
+
+    <div class="exp-box">
+
+      <div class="exp-header">
+        <div>
+          <h3>Research Intern</h3>
+          <p class="company">Institute of Advanced Research</p>
+
+          <div class="meta">
+            <span>📅 June 2025 - August 2025</span>
+            <span>🏢 Research Institute</span>
+          </div>
+        </div>
+
+        <div class="exp-icon">📁</div>
+      </div>
+
+      <h4>Key Responsibilities:</h4>
+
+      <ul class="exp-list">
+        <li>Executed IoT-driven water-quality monitoring by deploying and calibrating multi-parameter sensor modules (pH, TDS, EC, turbidity, DO, COD) for a 100L pilot-scale wastewater treatment system</li>
+
+        <li>Developed and optimized AI/ANN models for wastewater treatment performance prediction, integrating machine learning workflows with operational plant data</li>
+
+        <li>Contributed to scientific research through review-paper preparation, showcasing strong technical writing and interdisciplinary collaboration</li>
+      </ul>
+
+      <h4>Technologies Used:</h4>
+
+      <div class="tech-tags">
+        <span>IoT</span>
+        <span>AI/ML</span>
+        <span>ANN</span>
+        <span>Python</span>
+        <span>Data Analysis</span>
+        <span>Research</span>
+      </div>
+
+      <button class="exp-btn" onclick="window.open('https://drive.google.com/file/d/1zZMf6HuP9gYBMoiy1tA0SY7BRMPPNDCf/view','_blank')">
+  🔗 View Internship Certificate
+</button>
+
+    </div>
+
+  </div>
+
+  <p class="extra">
+    Also attended a <span>Machine Learning Workshop</span> at CSIR – CSIO, Chandigarh (October 2025)
+  </p>
+
+</section>
+
+<!--projects-->
+
+<section id="projects" class="projects">
+
+  <h2 class="projects-title">Featured <span>Projects</span></h2>
+
+  <div class="projects-container">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+
+      <div class="project-header">
+        <div>
+          <h3>FinVault - Bank Account + Locker Key System</h3>
+          <p class="date">April 2025 - May 2025</p>
+        </div>
+      </div>
+
+      <p class="project-desc">
+        A comprehensive banking system with account management, locker services, and admin approval workflow.
+      </p>
+
+      <ul>
+        <li>Engineered complete banking solution supporting account creation, deposits/withdrawals, locker services, reducing manual work by ~70%</li>
+        <li>Integrated Admin Requests + Approval workflow (PENDING/APPROVED/REJECTED), cutting processing time by ~60%</li>
+        <li>Ensured ACID-safe transactions using MySQL row-locking (FOR UPDATE), achieving 0% inconsistency</li>
+      </ul>
+
+      <div class="project-bottom">
+        <div class="tags">
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>MySQL</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <a href="https://github.com/Shreedhar182005/FinVault-Bank-Account-Locker-Key-System-" target="_blank" class="project-btn">
+          View on GitHub
+        </a>
+      </div>
+
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+
+      <div class="project-header">
+        <div>
+          <h3>Library Management System</h3>
+          <p class="date">May 2025 - June 2025</p>
+        </div>
+      </div>
+
+      <p class="project-desc">
+        A Python-MySQL based library management system with comprehensive CRUD operations and optimized data management.
+      </p>
+
+      <ul>
+        <li>Created system supporting 12+ CRUD operations with menu-driven UI, improving task speed by 30%</li>
+        <li>Designed categorized tracking modules, reducing navigation time by 40%</li>
+        <li>Implemented modular design and real-time DB updates, reducing runtime errors by over 25%</li>
+      </ul>
+
+      <div class="project-bottom">
+        <div class="tags">
+          <span>Python</span>
+          <span>MySQL</span>
+          <span>Database Design</span>
+        </div>
+
+        <a href="https://github.com/Shreedhar182005/Library-Managemnt-" target="_blank" class="project-btn">
+          View on GitHub
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <p class="extra-project">
+    Also developed a <span>Crop Disease Alert System</span> using DSA in C++
+  </p>
+
+  <div class="more-btn">
+    <a href="https://github.com/Shreedhar-18" target="_blank">View More Projects on GitHub</a>
+  </div>
+
+</section>
+
+<!--Certificates-->
+
+<section id="certificates" class="certificates">
+
+  <h2 class="cert-title">Certificates & <span>Training</span></h2>
+
+  <div class="cert-container">
+
+    <!-- CARD 1 -->
+    <div class="cert-card">
+      <h3>Basics of DSA using C++</h3>
+      <p class="org">Lovely Professional University</p>
+      <p class="date">June 2025 - July 2025</p>
+
+      <p class="desc">
+        Mastered core Data Structures and Algorithms concepts in C++, covering arrays, linked lists, stacks, queues, trees, graphs, and sorting/searching techniques. Built an end-to-end Crop Disease Alert System.
+      </p>
+
+      <a href="https://drive.google.com/file/d/1WksZHngOHkVm_dEYRaS4qcdK52DqmoFD/view" target="_blank" class="cert-btn">
+  View Certificate
+</a>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="cert-card">
+      <h3>Bits and Bytes of Computer Networking</h3>
+      <p class="org">Coursera</p>
+      <p class="date">September 2024</p>
+
+      <p class="desc">
+        Comprehensive course covering networking fundamentals, protocols, and network architecture.
+      </p>
+
+      <a href="https://drive.google.com/file/d/1wJCy1-_8CDGOdjgdlmnZjYRRq3U783dt/view" target="_blank" class="cert-btn">
+  View Certificate
+</a>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="cert-card">
+      <h3>Bootstrap HTML, CSS</h3>
+      <p class="org">Mind Luster</p>
+      <p class="date">April 2024</p>
+
+      <p class="desc">
+        Learned responsive web design using Bootstrap framework, HTML5, and CSS3.
+      </p>
+
+      <a href="https://drive.google.com/file/d/1KRupo3mnJpEFPN84vnpZ-7xjXdFqiFPU/view" target="_blank" class="cert-btn">
+  View Certificate
+</a>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="cert-card">
+      <h3>Unrevealing Basic Python Towards ML/AI</h3>
+      <p class="org">CSE Pathshala</p>
+      <p class="date">March 2024</p>
+
+      <p class="desc">
+        Introduction to Python programming with focus on Machine Learning and Artificial Intelligence applications.
+      </p>
+
+      <a href="https://drive.google.com/file/d/16ukwThDcUlRGewqKUe8lKLzssucnRb3s/view" target="_blank" class="cert-btn">
+  View Certificate
+</a>
+    </div>
+
+  </div>
+
+</section>
+
+<!--contact me -->
+
+<section id="contact" class="contact">
+
+  <h2 class="contact-title">Get In <span>Touch</span></h2>
+
+  <div class="contact-container">
+
+    <!-- LEFT -->
+    <div class="contact-left">
+
+      <h3>Let's Connect</h3>
+      <p>
+        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!
+      </p>
+
+      <div class="contact-box">
+        <span>📧</span>
+        <div>
+          <p>Email</p>
+          <strong>namastecoding182005@gmail.com</strong>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <span>📞</span>
+        <div>
+          <p>Phone</p>
+          <strong>+91-7250133339</strong>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <span>📍</span>
+        <div>
+          <p>Location</p>
+          <strong>Jalandhar - Punjab, India</strong>
+        </div>
+      </div>
+
+      <h4>Connect on Social Media</h4>
+
+      <div class="socials">
+        <a href="https://github.com/Shreedhar-18" target="_blank">🐱</a>
+        <a href="https://www.linkedin.com/in/shreedhar-tiwari" target="_blank">in</a>
+      </div>
+
+    </div>
+
+    <!-- RIGHT FORM -->
+    <div class="contact-right">
+
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Your Name">
+
+        <label>Email</label>
+        <input type="email" placeholder="your.email@example.com">
+
+        <label>Subject</label>
+        <input type="text" placeholder="What's this about?">
+
+        <label>Message</label>
+        <textarea placeholder="Your message..."></textarea>
+
+        <button type="submit">✈ Send Message</button>
+      </form>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>© 2026 Shreedhar Tiwari. All rights reserved.</p>
+    <p>Designed & Built with ❤️ using React</p>
+  </div>
+
+</section>
+
+
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
